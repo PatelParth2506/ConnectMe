@@ -1,5 +1,5 @@
 import mongoose from 'mongoose'
-import bcrypt from 'bcrypt'
+import bcrypt from 'bcryptjs'
 import { ApiError } from '../utils/ApiError.js'
 import jwt from 'jsonwebtoken'
 

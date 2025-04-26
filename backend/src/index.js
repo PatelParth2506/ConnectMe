@@ -1,10 +1,13 @@
 import dotenv from 'dotenv'
 import { server } from "./app.js"
 import dbconnect from './db/dbconnect.js'
+// import path from "path"
 
 dotenv.config({
     path:"../.env"
 })
+
+
 
 dbconnect()
 .then(()=>{
